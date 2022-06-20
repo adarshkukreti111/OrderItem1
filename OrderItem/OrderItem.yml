@@ -33,5 +33,3 @@ spec:
   selector:
     app: OrderItem
 
-- publish: $(build.artifactstagingdirectory)
-  artifact: WebApp
