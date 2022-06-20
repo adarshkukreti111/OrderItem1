@@ -33,3 +33,7 @@ spec:
   selector:
     app: OrderItem
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    artifactName: 'drop'
+    pathToPublish: '$(build.artifactstagingdirectory)'
