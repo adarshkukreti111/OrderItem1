@@ -32,3 +32,5 @@ spec:
   - port: 80
   selector:
     app: OrderItem
+
+- task: PublishBuildArtifacts@1
